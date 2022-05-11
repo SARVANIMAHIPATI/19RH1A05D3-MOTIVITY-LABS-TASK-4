@@ -15,8 +15,7 @@
 		<springframework.version>5.0.6.RELEASE</springframework.version>
 		<hibernate.version>5.4.1.Final</hibernate.version>
 		<mysql.connector.version>8.0.17</mysql.connector.version>
-		<c3po.version>0.9.5.2</c3po.version>
-		<springsecurity.version>5.0.3.RELEASE</springsecurity.version>
+		
 
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -66,12 +65,7 @@
 			<version>${springsecurity.version}</version>
 		</dependency>
 
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-			<version>2.9.5</version>
-		</dependency>
-
+		
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
@@ -152,13 +146,5 @@
 		</dependency>
 
 	</dependencies>
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-war-plugin</artifactId>
-				<version>3.2.2</version>
-			</plugin>
-		</plugins>
-	</build>
+	
 </project>
